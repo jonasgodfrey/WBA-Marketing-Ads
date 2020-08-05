@@ -131,7 +131,7 @@ function downloadBadge(){
   //auto dowload the image
   tmp.then(function(canvas){
     canvas.toBlob(function(blob){
-      saveAs(blob, "my-gla-badge.JPG");
+      saveAs(blob, "my-WBA-badge.jpg");
     });
   });
 }//downloadBadge
